@@ -55,8 +55,7 @@ public class Main {
         // Перетворили створений шаблон у рядкову форму.
         Date date = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yy HH:mm:ss");
-        String formattedDateTime = dateFormat.format(date);
-        return formattedDateTime;
+        return dateFormat.format(date);
     }
 
     private static void getOutput(double amount) {
